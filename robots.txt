@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://panghu1314.github.io/sitemap.xml
+Sitemap: https://panghu1314.github.io/cuddly-chuanqi/sitemap.xml
