@@ -1,0 +1,138 @@
+{
+  "src": "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\index.html",
+  "url": "file:///C:/Users/Administrator/Doubao/chats/2026-10-13/new-chat-4/%E4%BC%A0%E5%A5%87%E5%AE%A3%E4%BC%A0%E7%BD%91%E7%AB%99/index.html",
+  "outdir": "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots",
+  "include": [
+    "lint",
+    "screenshots",
+    "structure"
+  ],
+  "shots": {
+    "desktop": {
+      "screenshot": "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\index_desktop.jpg",
+      "screenshotBytes": 224030,
+      "truncated": false,
+      "structure": {
+        "title": "传奇游戏官网 - 经典归来 · 热血重燃",
+        "firstH1": "传奇",
+        "viewport": {
+          "w": 1416,
+          "h": 761
+        },
+        "fullpage": {
+          "w": 1416,
+          "h": 4397
+        },
+        "counts": {
+          "section": 6,
+          "h1": 1,
+          "h2": 5,
+          "img": 3,
+          "canvas": 0,
+          "svg": 5,
+          "links": 13,
+          "buttons": 2
+        }
+      },
+      "consoleErrors": [],
+      "consoleWarnings": [],
+      "horizontalOverflow": [],
+      "resourceErrors": [],
+      "reportSource": "cdp"
+    },
+    "mobile": {
+      "slices": [
+        "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\index_mobile_p1of3.jpg",
+        "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\index_mobile_p2of3.jpg",
+        "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\index_mobile_p3of3.jpg"
+      ],
+      "sliceHint": "按顺序 Read slices 里的各分片。",
+      "truncated": false,
+      "structure": {
+        "title": "传奇游戏官网 - 经典归来 · 热血重燃",
+        "firstH1": "传奇",
+        "viewport": {
+          "w": 492,
+          "h": 705
+        },
+        "fullpage": {
+          "w": 492,
+          "h": 6734
+        },
+        "counts": {
+          "section": 6,
+          "h1": 1,
+          "h2": 5,
+          "img": 3,
+          "canvas": 0,
+          "svg": 5,
+          "links": 13,
+          "buttons": 2
+        }
+      },
+      "consoleErrors": [],
+      "consoleWarnings": [],
+      "horizontalOverflow": [],
+      "resourceErrors": [],
+      "reportSource": "cdp"
+    }
+  },
+  "engine": "chrome_cli",
+  "chromiumExec": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "engineDegraded": true,
+  "engineDegradedReason": "playwright 未装",
+  "elapsedSec": 8.62,
+  "schemaVersion": 2,
+  "status": "pass",
+  "engineInfo": {
+    "name": "chrome_cli",
+    "degraded": true,
+    "degradedReasons": [
+      "playwright 未装"
+    ]
+  },
+  "input": {
+    "original": "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\index.html",
+    "resolvedPath": "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\index.html",
+    "baseUrl": "file:///C:/Users/Administrator/Doubao/chats/2026-10-13/new-chat-4/%E4%BC%A0%E5%A5%87%E5%AE%A3%E4%BC%A0%E7%BD%91%E7%AB%99/index.html",
+    "protocol": "file",
+    "cwd": "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4",
+    "mediaMode": {
+      "reducedMotion": true
+    }
+  },
+  "artifacts": {
+    "screenshots": [
+      {
+        "viewport": "desktop",
+        "path": "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\index_desktop.jpg",
+        "size": 224030,
+        "visualCoverage": {
+          "complete": true,
+          "reason": null
+        }
+      },
+      {
+        "viewport": "mobile",
+        "tiles": [
+          "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\index_mobile_p1of3.jpg",
+          "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\index_mobile_p2of3.jpg",
+          "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\index_mobile_p3of3.jpg"
+        ],
+        "visualCoverage": {
+          "complete": true,
+          "reason": null
+        }
+      }
+    ]
+  },
+  "summary": {
+    "blocker": 0,
+    "error": 0,
+    "warning": 0,
+    "info": 0
+  },
+  "findings": [],
+  "prioritizedActions": [],
+  "reportPath": "C:\\Users\\Administrator\\Doubao\\chats\\2026-10-13\\new-chat-4\\传奇宣传网站\\_shots\\report.json"
+}
