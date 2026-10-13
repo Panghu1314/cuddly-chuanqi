@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>传奇游戏官网 - 经典归来 · 热血重燃</title>
+<meta name="description" content="传奇游戏官方网站：经典三大职业重现，沙城争霸、千人同屏、打宝爆装，带你重温热血年代。立即下载，再战沙城。">
+<meta name="keywords" content="传奇,传奇游戏,传奇手游,沙城争霸,战士,法师,道士,经典网游">
+<meta name="author" content="传奇宣传站">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://yourname.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="传奇游戏官网 - 经典归来 · 热血重燃">
+<meta property="og:description" content="经典三大职业重现，沙城争霸、千人同屏、打宝爆装，带你重温热血年代。">
+<meta property="og:url" content="https://yourname.github.io/">
+<meta property="og:image" content="https://yourname.github.io/assets/hero.jpg">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="传奇游戏官网 - 经典归来 · 热血重燃">
+<meta name="twitter:description" content="经典三大职业重现，沙城争霸、千人同屏、打宝爆装，带你重温热血年代。">
+<meta name="twitter:image" content="https://yourname.github.io/assets/hero.jpg">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230d0906'/%3E%3Cpath d='M32 10 14 20v14c0 12 7.5 19 18 22 10.5-3 18-10 18-22V20L32 10z' fill='none' stroke='%23c9a227' stroke-width='4'/%3E%3Ctext x='32' y='41' font-size='22' font-weight='900' text-anchor='middle' fill='%23e8c96a' font-family='serif'%3E%E4%BC%A0%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "传奇",
+  "alternateName": "Legend MMORPG",
+  "description": "经典传奇题材 MMORPG，三大职业重现，沙城争霸、千人同屏、打宝爆装。",
+  "genre": ["MMORPG", "角色扮演"],
+  "applicationCategory": "Game",
+  "operatingSystem": "Windows, Android, iOS",
+  "url": "https://yourname.github.io/"
+}
+</script>
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+SC:wght@700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+<style>
+  :root{
+    --bg:#0d0906;
+    --bg-2:#16100a;
+    --bg-3:#1f1710;
+    --gold:#c9a227;
+    --gold-light:#e8c96a;
+    --red:#a32b2b;
+    --text:#f0e6d2;
+    --muted:#b7a88a;
+    --line:rgba(201,162,39,.35);
+    --serif:'Noto Serif SC','Songti SC','SimSun',serif;
+    --sans:'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--sans);
+    font-size:16px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+  .gold-text{
+    background:linear-gradient(180deg,#f4dd9a 0%,#c9a227 55%,#8f6c12 100%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+  }
+
+  /* ===== 顶部导航 ===== */
+  .nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(13,9,6,.88);
+    border-bottom:1px solid var(--line);
+    backdrop-filter:blur(8px);
+  }
+  .nav-inner{
+    max-width:1120px;margin:0 auto;padding:0 20px;
+    height:60px;display:flex;align-items:center;justify-content:space-between;
+  }
+  .brand{
+    font-family:var(--serif);
+    font-weight:900;font-size:22px;letter-spacing:6px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .brand svg{width:26px;height:26px;flex:none}
+  .nav-links{display:flex;gap:22px;align-items:center}
+  .nav-links a{
+    font-size:15px;color:var(--muted);transition:color .2s;
+    position:relative;padding:4px 0;
+  }
+  .nav-links a:hover{color:var(--gold-light)}
+  .nav-links a::after{
+    content:"";position:absolute;left:0;bottom:0;width:0;height:1px;
+    background:var(--gold);transition:width .25s;
+  }
+  .nav-links a:hover::after{width:100%}
+
+  /* ===== Hero ===== */
+  .hero{
+    position:relative;min-height:88vh;
+    display:flex;align-items:center;
+    background-image:linear-gradient(90deg,rgba(13,9,6,.92) 0%,rgba(13,9,6,.55) 42%,rgba(13,9,6,.25) 68%,rgba(13,9,6,.55) 100%),
+                     linear-gradient(0deg,rgba(13,9,6,.9) 0%,rgba(13,9,6,0) 30%),
+                     url("assets/hero.jpg");
+    background-size:cover;
+    background-position:center 32%;
+  }
+  .hero-inner{
+    max-width:1120px;margin:0 auto;padding:120px 20px 100px;width:100%;
+  }
+  .hero-kicker{
+    font-size:14px;letter-spacing:8px;color:var(--gold-light);
+    margin-bottom:18px;text-transform:uppercase;
+    display:inline-flex;align-items:center;gap:10px;
+  }
+  .hero-kicker::before{content:"";width:34px;height:1px;background:var(--gold)}
+  .hero h1{
+    font-family:var(--serif);
+    font-weight:900;font-size:clamp(64px,12vw,128px);
+    line-height:1.02;letter-spacing:10px;
+  }
+  .hero-sub{
+    margin-top:20px;font-size:clamp(18px,2.6vw,26px);
+    font-weight:500;color:var(--text);letter-spacing:4px;
+  }
+  .hero-desc{
+    margin-top:14px;max-width:480px;color:var(--muted);font-size:16px;
+  }
+  .hero-cta{margin-top:38px;display:flex;gap:16px;flex-wrap:wrap}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    min-height:48px;padding:0 32px;border-radius:4px;
+    font-size:16px;font-weight:600;letter-spacing:2px;
+    cursor:pointer;border:none;transition:transform .2s,box-shadow .2s;
+    font-family:var(--sans);
+  }
+  .btn-gold{
+    color:#14100a;
+    background:linear-gradient(180deg,#e8c96a 0%,#c9a227 60%,#a07d18 100%);
+    box-shadow:0 6px 24px rgba(201,162,39,.35);
+  }
+  .btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(201,162,39,.5)}
+  .btn-ghost{
+    color:var(--gold-light);background:transparent;
+    border:1px solid var(--gold);
+  }
+  .btn-ghost:hover{background:rgba(201,162,39,.12);transform:translateY(-2px)}
+
+  /* ===== 章节通用 ===== */
+  section{padding:88px 0}
+  .sec-head{margin-bottom:44px}
+  .sec-tag{
+    font-size:13px;letter-spacing:6px;color:var(--gold);
+    margin-bottom:10px;display:flex;align-items:center;gap:10px;
+  }
+  .sec-tag::after{content:"";width:40px;height:1px;background:var(--gold)}
+  .sec-head h2{
+    font-family:var(--serif);font-weight:900;
+    font-size:clamp(30px,4.4vw,44px);letter-spacing:4px;
+  }
+  .sec-head p{color:var(--muted);margin-top:10px;font-size:16px}
+
+  /* ===== 简介 ===== */
+  .intro{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .intro-grid{
+    display:grid;grid-template-columns:1fr;gap:28px;
+  }
+  .intro-text{font-size:17px;color:var(--text);max-width:820px}
+  .intro-text strong{color:var(--gold-light)}
+  .intro-stats{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px;
+  }
+  .stat{
+    border:1px solid var(--line);border-radius:6px;
+    padding:22px 18px;text-align:center;background:rgba(31,23,16,.5);
+  }
+  .stat b{
+    display:block;font-family:var(--serif);font-size:clamp(28px,4vw,40px);
+    font-weight:900;color:var(--gold-light);letter-spacing:2px;
+  }
+  .stat span{font-size:13px;color:var(--muted);letter-spacing:2px}
+  .stat-note{font-size:12px;color:#8d8068;margin-top:10px;text-align:center}
+
+  /* ===== 特色玩法 ===== */
+  .features-grid{
+    display:grid;grid-template-columns:1fr;gap:18px;
+  }
+  .feature{
+    border:1px solid var(--line);border-radius:8px;
+    background:linear-gradient(160deg,rgba(31,23,16,.85) 0%,rgba(13,9,6,.95) 100%);
+    padding:30px 26px;position:relative;overflow:hidden;
+    transition:transform .25s,border-color .25s;
+  }
+  .feature::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+    background:linear-gradient(180deg,var(--gold-light),var(--red));
+    opacity:.7;
+  }
+  .feature:hover{transform:translateY(-4px);border-color:var(--gold)}
+  .feature svg{width:38px;height:38px;stroke:var(--gold);margin-bottom:16px}
+  .feature h3{font-family:var(--serif);font-size:21px;font-weight:900;letter-spacing:2px;margin-bottom:8px}
+  .feature p{color:var(--muted);font-size:15px}
+
+  /* ===== 职业体系 ===== */
+  .classes{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .classes-grid{
+    display:grid;grid-template-columns:1fr;gap:22px;
+  }
+  .class-card{
+    border:1px solid var(--line);border-radius:8px;overflow:hidden;
+    background:var(--bg-3);transition:transform .25s,border-color .25s;
+    display:flex;flex-direction:column;
+  }
+  .class-card:hover{transform:translateY(-5px);border-color:var(--gold)}
+  .class-card .img-box{position:relative;aspect-ratio:3/4;overflow:hidden}
+  .class-card img{
+    width:100%;height:100%;object-fit:cover;
+    transition:transform .5s;
+  }
+  .class-card:hover img{transform:scale(1.04)}
+  .class-card .img-box::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(0deg,rgba(13,9,6,.9) 0%,rgba(13,9,6,0) 45%);
+  }
+  .class-body{padding:22px 22px 26px;position:relative}
+  .class-body h3{
+    font-family:var(--serif);font-size:24px;font-weight:900;
+    letter-spacing:4px;color:var(--gold-light);margin-bottom:8px;
+  }
+  .class-body .en{font-size:12px;letter-spacing:3px;color:#8d8068;margin-bottom:10px}
+  .class-body p{color:var(--muted);font-size:15px}
+
+  /* ===== 资讯 ===== */
+  .news-list{display:flex;flex-direction:column;gap:14px}
+  .news-item{
+    display:flex;align-items:flex-start;gap:18px;
+    border:1px solid var(--line);border-radius:6px;
+    padding:20px 22px;background:rgba(31,23,16,.5);
+    transition:border-color .2s;
+  }
+  .news-item:hover{border-color:var(--gold)}
+  .news-date{
+    flex:none;width:84px;text-align:center;
+    border-right:1px solid var(--line);padding-right:16px;
+  }
+  .news-date b{display:block;font-family:var(--serif);font-size:20px;color:var(--gold-light)}
+  .news-date span{font-size:12px;color:#8d8068;letter-spacing:1px}
+  .news-item h3{font-size:17px;font-weight:600;margin-bottom:4px}
+  .news-item p{font-size:14px;color:var(--muted)}
+  .news-tip{font-size:13px;color:#8d8068;margin-top:16px}
+
+  /* ===== 下载区 ===== */
+  .download{
+    position:relative;text-align:center;
+    background:
+      radial-gradient(ellipse at 50% 120%,rgba(163,43,43,.28) 0%,rgba(13,9,6,0) 60%),
+      var(--bg-2);
+    border-top:1px solid var(--line);
+  }
+  .download h2{font-family:var(--serif);font-weight:900;font-size:clamp(32px,5vw,52px);letter-spacing:6px}
+  .download p{color:var(--muted);margin-top:14px;max-width:520px;margin-left:auto;margin-right:auto}
+  .download .btn{margin-top:34px}
+  .download-sub{font-size:13px;color:#8d8068;margin-top:16px}
+
+  /* ===== 页脚 ===== */
+  footer{
+    border-top:1px solid var(--line);padding:34px 0 28px;
+    background:var(--bg);font-size:14px;color:#8d8068;
+  }
+  .foot-inner{max-width:1120px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
+  .foot-links{display:flex;gap:18px;flex-wrap:wrap}
+  .foot-links a{color:var(--muted)}
+  .foot-links a:hover{color:var(--gold-light)}
+
+  /* ===== Toast ===== */
+  #toast{
+    position:fixed;left:50%;bottom:36px;transform:translateX(-50%) translateY(20px);
+    background:rgba(31,23,16,.95);border:1px solid var(--gold);
+    color:var(--gold-light);font-size:14px;padding:12px 22px;border-radius:6px;
+    opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;
+    z-index:100;max-width:86vw;text-align:center;
+  }
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  /* ===== 滚动显现 ===== */
+  .rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+  .rv.in{opacity:1;transform:none}
+
+  @media (min-width:640px){
+    .features-grid{grid-template-columns:repeat(2,1fr)}
+  }
+  @media (min-width:900px){
+    .features-grid{grid-template-columns:repeat(4,1fr)}
+    .classes-grid{grid-template-columns:repeat(3,1fr)}
+    .intro-grid{grid-template-columns:1fr}
+    .hero{min-height:100vh}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .rv{opacity:1;transform:none;transition:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="传奇游戏官网首页">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#16100a"/><path d="M32 10 14 20v14c0 12 7.5 19 18 22 10.5-3 18-10 18-22V20L32 10z" fill="none" stroke="#c9a227" stroke-width="4"/><text x="32" y="41" font-size="22" font-weight="900" text-anchor="middle" fill="#e8c96a" font-family="serif">传</text></svg>
+      <span>传奇</span>
+    </a>
+    <nav class="nav-links" aria-label="站内导航">
+      <a href="#intro">游戏简介</a>
+      <a href="#features">特色玩法</a>
+      <a href="#classes">职业体系</a>
+      <a href="#news">资讯</a>
+      <a href="#download">下载</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <!-- ===== Hero ===== -->
+  <section class="hero" aria-label="传奇游戏宣传主视觉">
+    <div class="hero-inner">
+      <span class="hero-kicker">CLASSIC RETURNS · 经典回归</span>
+      <h1><span class="gold-text">传奇</span></h1>
+      <p class="hero-sub">经典归来 · 热血重燃</p>
+      <p class="hero-desc">曾经的兄弟还在，曾经的沙城还在。三大职业、万人攻城、打宝爆装，这一次，为你重启热血年代。</p>
+      <div class="hero-cta">
+        <button class="btn btn-gold" type="button" data-demo="下载链接待配置，请替换为真实下载地址">立即下载</button>
+        <a class="btn btn-ghost" href="#intro">了解更多</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 游戏简介 ===== -->
+  <section class="intro" id="intro">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">GAME INTRO</span>
+        <h2>游戏简介</h2>
+      </div>
+      <p class="intro-text rv">
+        《<strong>传奇</strong>》是一款经典传奇题材的大型多人在线角色扮演游戏（MMORPG），以自由 PK、打宝爆装、攻城掠地为核心玩法。
+        玩家可在<strong>战士、法师、道士</strong>三大职业中选择自己的道路，在广袤的玛法大陆上冒险、成长、结盟与征战。
+        经典玩法原汁原味重现，让每一位老玩家都能找回当年的热血与兄弟情谊。
+        <span style="color:#8d8068">（占位文案，请替换为你的游戏真实介绍）</span>
+      </p>
+      <div class="intro-stats" aria-hidden="true">
+        <div class="stat"><b>3</b><span>大经典职业</span></div>
+        <div class="stat"><b>7×24</b><span>不间断开放世界</span></div>
+        <div class="stat"><b>1</b><span>座沙巴克城等你攻占</span></div>
+      </div>
+      <p class="stat-note">示例数据占位，请替换为真实游戏数据</p>
+    </div>
+  </section>
+
+  <!-- ===== 特色玩法 ===== -->
+  <section class="features" id="features">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">CORE FEATURES</span>
+        <h2>特色玩法</h2>
+        <p>原汁原味的经典玩法，每一环都是回忆杀</p>
+      </div>
+      <div class="features-grid rv">
+        <article class="feature">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.2 8.5 8 11 4.8-2.5 8-6 8-11V5l-8-3z"/><path d="M8 12l2.6 2.6L16 9"/></svg>
+          <h3>沙城争霸</h3>
+          <p>每周沙巴克攻城战，万人同城争夺王城，兄弟齐上阵，一役定乾坤。</p>
+        </article>
+        <article class="feature">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="16" cy="9" r="2.2"/><path d="M3 20c0-3.5 2.6-6 6-6s6 2.5 6 6"/><path d="M15 14.5c3.1.4 5.3 2.4 5.3 5.5"/></svg>
+          <h3>千人同屏</h3>
+          <p>同屏千人激战不卡顿，攻城、打宝、野外遭遇，场面热血沸腾。</p>
+        </article>
+        <article class="feature">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M12 8v6M9 11h6"/><path d="M4 15h16"/></svg>
+          <h3>打宝爆装</h3>
+          <p>经典地图逐层深入，极品装备全靠怪物掉落，爆装瞬间心跳拉满。</p>
+        </article>
+        <article class="feature">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3 3 6l2 3 3-2-1-4z"/><path d="M17 3l4 3-2 3-3-2 1-4z"/><path d="M8 11l8-3 4 9-8 3-4-9z"/><path d="M8 11 5 17l3 3 3-4"/></svg>
+          <h3>自由 PK</h3>
+          <p>无束缚自由对战，红名爆装恩怨分明，快意恩仇由你书写。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 职业体系 ===== -->
+  <section class="classes" id="classes">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">THREE CLASSES</span>
+        <h2>职业体系</h2>
+        <p>战士、法师、道士，三条截然不同的热血之路</p>
+      </div>
+      <div class="classes-grid rv">
+        <article class="class-card">
+          <div class="img-box"><img src="assets/warrior.jpg" alt="战士职业立绘：重甲巨剑的战士" loading="lazy"></div>
+          <div class="class-body">
+            <h3>战士</h3>
+            <div class="en">WARRIOR</div>
+            <p>近战攻防核心，冲锋陷阵、一夫当关。高血量高爆发，沙城前线最坚实的壁垒。</p>
+          </div>
+        </article>
+        <article class="class-card">
+          <div class="img-box"><img src="assets/mage.jpg" alt="法师职业立绘：持杖施法的法师" loading="lazy"></div>
+          <div class="class-body">
+            <h3>法师</h3>
+            <div class="en">MAGE</div>
+            <p>远程魔法输出，掌握毁灭之力。群体法术清场迅猛，攻城战中的移动炮台。</p>
+          </div>
+        </article>
+        <article class="class-card">
+          <div class="img-box"><img src="assets/taoist.jpg" alt="道士职业立绘：持剑驭符的道士" loading="lazy"></div>
+          <div class="class-body">
+            <h3>道士</h3>
+            <div class="en">TAOIST</div>
+            <p>攻守兼备的辅助与持续作战大师，符箓灵光护身，持久战中愈战愈强。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 资讯公告 ===== -->
+  <section class="news" id="news">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">NEWS</span>
+        <h2>资讯公告</h2>
+        <p>版本动态、活动公告与更新资讯</p>
+      </div>
+      <div class="news-list rv">
+        <a class="news-item" href="#news" data-demo="示例资讯占位，请替换为真实公告链接">
+          <div class="news-date"><b>10</b><span>2026-10</span></div>
+          <div><h3>「传奇」经典版本预约开启（示例）</h3><p>经典版本预约通道正式开放，预约即享开服礼包。</p></div>
+        </a>
+        <a class="news-item" href="#news" data-demo="示例资讯占位，请替换为真实公告链接">
+          <div class="news-date"><b>09</b><span>2026-09</span></div>
+          <div><h3>沙城争霸新赛季即将上线（示例）</h3><p>全新赛季奖励与攻城机制调整，敬请期待。</p></div>
+        </a>
+        <a class="news-item" href="#news" data-demo="示例资讯占位，请替换为真实公告链接">
+          <div class="news-date"><b>09</b><span>2026-09</span></div>
+          <div><h3>三大职业平衡性调整公告（示例）</h3><p>基于玩家反馈，对部分职业技能与数值进行优化。</p></div>
+        </a>
+      </div>
+      <p class="news-tip">以上为示例内容，请替换为你的真实公告与资讯。</p>
+    </div>
+  </section>
+
+  <!-- ===== 下载 ===== -->
+  <section class="download" id="download">
+    <div class="wrap">
+      <h2><span class="gold-text">下载 · 再战沙城</span></h2>
+      <p>支持 Windows 与移动端，随时随地进入玛法大陆。下载链接待配置，请替换为你的真实下载地址。</p>
+      <button class="btn btn-gold" type="button" data-demo="下载链接待配置，请替换为真实下载地址">立即下载</button>
+      <p class="download-sub">示例占位按钮：在页面源码中搜索 data-demo 即可定位所有待替换链接。</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <span>© <span id="year">2026</span> 传奇宣传站 · 版权所有（版权信息待替换）</span>
+    <nav class="foot-links" aria-label="页脚链接">
+      <a href="#top">返回顶部</a>
+      <a href="#news">资讯</a>
+      <a href="#download">下载</a>
+    </nav>
+  </div>
+</footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var toastEl = document.getElementById('toast');
+  var toastTimer = null;
+  function showToast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 2600);
+  }
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('[data-demo]');
+    if(t){
+      e.preventDefault();
+      showToast(t.getAttribute('data-demo'));
+    }
+  });
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  var rv = document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    },{threshold:.12});
+    rv.forEach(function(el){ io.observe(el); });
+  } else {
+    rv.forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+</body>
+</html>
